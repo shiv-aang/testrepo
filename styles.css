@@ -1,5 +1,5 @@
 body{
-	background-color: #c1c6e3;
+	background-color: #000000;
 }
 h1 {
 	color:white;
@@ -17,40 +17,67 @@ p{
 }
 /*this is a comment*/
 img{
-	max-width: 70%;
+	max-width: 100%;
 	height:auto;
 	margin:0 0 0 0px; 
 }
-{box-sizing: border-box;}
+*{box-sizing: border-box}
 
 .container{
 	display: grid;
-	grid-template-columns: repeat(3,400px);
+	grid-template-columns: repeat(3,1fr);
 	position: relative;
-	width: 50%;
-	max-width: 400px;
+	width: 100%;
+	max-width: 1500px;
+	grid-column-gap:10px; 
 }
 .image{
 	display: block;
 	width: 100%;
 	height: auto;
+	transition: .5ease;
+	backface-visibility: hidden;
+	padding:10px;
 }
 .overlay{
+	transition: .5s ease;
+	opacity: 0;
+	position: relative;
+	left:50%;
+	bottom:40%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%, -50%);
+	text-align: center;
+
+}
+.text{
+	background-color: #68767d;
+	font-family: verdana;
+	color: white;
+	font-size: 20px;
+	padding:20px 5px;
+}
+/*.overlay{
 	position: absolute;
-	bottom: 0%;
+	bottom: 0;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.5);
 	color: #f1f1f1;
-	width: 50%;
+	width: 100%;
 	transition: .5s ease;
 	opacity: 0;
 	color:white;
 	font-size: 20px;
-	padding: 40px;
+	padding: 10px;
 	text-align: center;
+}*/
+
+.image:hover .image{
+	opacity: 0.5;
 }
 .image:hover .overlay{
 	opacity: 1;
+
 }
 }
  #about1{
