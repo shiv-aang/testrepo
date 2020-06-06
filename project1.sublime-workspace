@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"grid",
+				"grid-column\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"r",
+				"rgba()\tbackground-color"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"gr",
+				"grid-column\tproperty"
+			],
+			[
+				"grid-c",
+				"grid-column-end\tproperty"
+			],
+			[
+				"grid-colum",
+				"grid-column-start\tproperty"
+			],
+			[
+				"gri",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"grid-co",
+				"grid-column-gap\tproperty"
+			],
+			[
+				"grid-temp",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-au",
+				"grid-auto-rows\tproperty"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
 				"im",
 				"image"
 			],
@@ -55,7 +139,7 @@
 			"file": "project1.html",
 			"settings":
 			{
-				"buffer_size": 974,
+				"buffer_size": 1341,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<!DOCTYPE html>"
@@ -65,7 +149,7 @@
 			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 1075,
+				"buffer_size": 1780,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "body"
@@ -104,6 +188,9 @@
 	},
 	"file_history":
 	[
+		"/D/Top Secret/Code/website/testrepo/style.css",
+		"/D/Top Secret/Code/website/testrepo/index.html",
+		"/D/Top Secret/Code/website/testrepo/.git/COMMIT_EDITMSG",
 		"/D/Top Secret/Code/project1.html",
 		"/C/Users/BeastBoy/scripts/nltk.py",
 		"/C/Users/BeastBoy/Documents/nltk.py"
@@ -150,15 +237,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 974,
+						"buffer_size": 1341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								747,
-								747
+								255,
+								255
 							]
 						],
 						"settings":
@@ -167,7 +254,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -179,15 +266,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1075,
+						"buffer_size": 1780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								782,
-								782
+								960,
+								960
 							]
 						],
 						"settings":
@@ -196,7 +283,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 591.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
